@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E0471542190563B0080839F /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0471532190563B0080839F /* ConversionViewController.swift */; };
+		4E0FE58321946433009F7DC9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E0FE58521946433009F7DC9 /* Localizable.strings */; };
 		4E17CACD218F3A0E002733F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17CACC218F3A0E002733F0 /* AppDelegate.swift */; };
 		4E17CAD2218F3A0E002733F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E17CAD0218F3A0E002733F0 /* Main.storyboard */; };
 		4E17CAD4218F3A0F002733F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E17CAD3218F3A0F002733F0 /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 		4E17CAED218F3A10002733F0 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17CAEC218F3A10002733F0 /* WorldTrotterUITests.swift */; };
 		4EA559B62191B171004A98E4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA559B52191B171004A98E4 /* MapKit.framework */; };
 		4EA559B82191C312004A98E4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA559B72191C311004A98E4 /* MapViewController.swift */; };
+		4EE742E72192CFA1004C01E9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE742E62192CFA1004C01E9 /* WebViewController.swift */; };
+		4EE742E92192D330004C01E9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE742E82192D330004C01E9 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		4E0471532190563B0080839F /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		4E0FE58421946433009F7DC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4E0FE58621946437009F7DC9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4E0FE5872194848F009F7DC9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		4E0FE5882194848F009F7DC9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4E17CAC9218F3A0E002733F0 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E17CACC218F3A0E002733F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E17CAD1218F3A0E002733F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,8 +56,12 @@
 		4E17CAE8218F3A10002733F0 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E17CAEC218F3A10002733F0 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		4E17CAEE218F3A10002733F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E1DDABE2194556500783DAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		4E1DDABF219455E600783DAC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		4EA559B52191B171004A98E4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4EA559B72191C311004A98E4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4EE742E62192CFA1004C01E9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		4EE742E82192D330004C01E9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE742E92192D330004C01E9 /* WebKit.framework in Frameworks */,
 				4EA559B62191B171004A98E4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,9 +115,11 @@
 		4E17CACB218F3A0E002733F0 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				4E0FE58521946433009F7DC9 /* Localizable.strings */,
 				4E17CACC218F3A0E002733F0 /* AppDelegate.swift */,
 				4E0471532190563B0080839F /* ConversionViewController.swift */,
 				4EA559B72191C311004A98E4 /* MapViewController.swift */,
+				4EE742E62192CFA1004C01E9 /* WebViewController.swift */,
 				4E17CAD0218F3A0E002733F0 /* Main.storyboard */,
 				4E17CAD3218F3A0F002733F0 /* Assets.xcassets */,
 				4E17CAD5218F3A0F002733F0 /* LaunchScreen.storyboard */,
@@ -135,6 +149,7 @@
 		4EA559B42191B170004A98E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4EE742E82192D330004C01E9 /* WebKit.framework */,
 				4EA559B52191B171004A98E4 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -226,6 +241,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				"zh-Hant",
 			);
 			mainGroup = 4E17CAC0218F3A0E002733F0;
 			productRefGroup = 4E17CACA218F3A0E002733F0 /* Products */;
@@ -245,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E17CAD7218F3A0F002733F0 /* LaunchScreen.storyboard in Resources */,
+				4E0FE58321946433009F7DC9 /* Localizable.strings in Resources */,
 				4E17CAD4218F3A0F002733F0 /* Assets.xcassets in Resources */,
 				4E17CAD2218F3A0E002733F0 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +292,7 @@
 				4E0471542190563B0080839F /* ConversionViewController.swift in Sources */,
 				4EA559B82191C312004A98E4 /* MapViewController.swift in Sources */,
 				4E17CACD218F3A0E002733F0 /* AppDelegate.swift in Sources */,
+				4EE742E72192CFA1004C01E9 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,10 +328,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4E0FE58521946433009F7DC9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E0FE58421946433009F7DC9 /* en */,
+				4E0FE58621946437009F7DC9 /* es */,
+				4E0FE5882194848F009F7DC9 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		4E17CAD0218F3A0E002733F0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4E17CAD1218F3A0E002733F0 /* Base */,
+				4E1DDABE2194556500783DAC /* en */,
+				4E1DDABF219455E600783DAC /* es */,
+				4E0FE5872194848F009F7DC9 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -332,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -393,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
